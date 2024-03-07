@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Navbar from "./components/Navbar";
+import Feature from "./components/Feature";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <Navbar />
       <div className="mt-16 mx-auto py-4">
         <Hero />
-        {/* <Feature /> */}
+        <Feature />
         <Services />
       </div>
     </main>

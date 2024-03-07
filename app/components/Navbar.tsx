@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className="fixed mx-auto border bg-white border-[#b3aeae] border-t-0 top-0 left-0 right-0 z-10 bg-opacity-100">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto p-4">
         <Link href="/" className="text-2xl md:text-5xl font-semibold">
-          LOGO
+          Brenda’s Fun Doggie Daycare
         </Link>
         <div className="mobile-menu block md:hidden">
           {navbarOpen ? (
@@ -84,11 +84,11 @@ export default Navbar;
 //           <li>Food</li>
 //           <li>Dish</li>
 //           <li>Contact</li>
-//           <Button className="bg-orange-500 text-white px-6 py-2 rounded-3xl">
+//           <Button className="bg-thirdary text-white px-6 py-2 rounded-3xl">
 //             SignUp
 //           </Button>
 //         </ul>
-//         <AiOutlineMenu size={30} className="md:hidden text-orange-500" />
+//         <AiOutlineMenu size={30} className="md:hidden text-thirdary" />
 //       </div>
 //     </div>
 //   );

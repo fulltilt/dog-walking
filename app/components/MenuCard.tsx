@@ -23,7 +23,7 @@ const MenuCard = ({ img, title, desc, price }: PropsType) => {
           <p className="text-[14px] text-gray-600 pt-1">{desc}</p>
         </div>
       </div>
-      <p className="text-orange-500">{price}</p>
+      <p className="text-thirdary">{price}</p>
     </div>
   );
 };

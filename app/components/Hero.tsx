@@ -1,6 +1,7 @@
-import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import Navbar from "./Navbar";
+
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -21,12 +22,14 @@ const Hero = () => {
       <Navbar />
       <div className="container h-[calc(100vh-120px)] grid items-center">
         <div className="space-y-4 bg-[#ffffff98] w-fit p-4">
-          <h2 className="text-4xl sm:text-6xl font-bold">Hero Text</h2>
+          <h2 className="text-6xl md:text-4xl font-bold">
+            Welcome all dogs of any age or breed!
+          </h2>
           <p className="text-gray-700 text-[14px] sm:text-[16px]">
-            Hero subtext
+            Your pet will have lots of fun and will make new friends!
           </p>
-          <Button className="bg-orange-500 text-white px-6 py-4 rounded-3xl text-[14px] sm:text-[16px]">
-            View More
+          <Button className="bg-thirdary text-white px-6 py-4 rounded-3xl text-[14px] sm:text-[16px]">
+            <Link href="#services">View Services</Link>
           </Button>
         </div>
       </div>

@@ -14,15 +14,15 @@ const ServicesCard = ({ img, title, desc }: CardProps) => {
         <Image
           className="mx-auto rounded"
           src={img}
-          width={200}
-          height={200}
+          width={300}
+          height={300}
           alt={title}
         />
-        <div className="uppercase">{title}</div>
+        <div className="uppercase font-bold text-2xl">{title}</div>
         <div className="flex gap-2 w-fit mx-auto mt-2">
-          <div className="bg-orange-500 w-[7px] h-[7px] rounded-full" />
-          <div className="bg-orange-500 w-[7px] h-[7px] rounded-full" />
-          <div className="bg-orange-500 w-[7px] h-[7px] rounded-full" />
+          <div className="bg-thirdary w-[7px] h-[7px] rounded-full" />
+          <div className="bg-thirdary w-[7px] h-[7px] rounded-full" />
+          <div className="bg-thirdary w-[7px] h-[7px] rounded-full" />
         </div>
       </div>
       <p className="text-gray-700 text-[14px] mt-3">{desc}</p>

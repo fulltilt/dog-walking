@@ -4,80 +4,87 @@ import Image from "next/image";
 
 const Feature = () => {
   return (
-    <div className="container">
-      <h2 className="text-6xl font-bold">Our</h2>
+    <div className="container mt-20">
       <h2 className="text-6xl font-bold pt-2">
-        Featured <span className="text-orange-500">Food</span>
+        Benefits of <span className="text-thirdary">Dog Walking</span>
       </h2>
       <p className="max-w-[550px] pt-10 text-gray-700">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis
-        leo efficitur, bibendum enim eu, lobortis nulla. Nulla lectus risus,
-        fermentum eget porta id, euismod eget massa.
+        Dog walking offers numerous benefits, both for the dogs themselves and
+        their owners. Here's a list of some of the key benefits:
       </p>
 
-      <Dash />
+      <div className="flex flex-col md:flex-row justify-around">
+        <ul className="space-y-16 mt-10 list-disc max-w-[550px] pt-10 text-gray-700">
+          <li>
+            <strong>Physical Exercise for Dogs:</strong> Regular walking
+            provides dogs with essential physical exercise, helping to maintain
+            a healthy weight, improve cardiovascular health, and strengthen
+            muscles and joints.
+          </li>
+          <li>
+            <strong>Mental Stimulation:</strong> Walking exposes dogs to new
+            sights, sounds, and smells, which stimulates their minds and
+            prevents boredom. Mental stimulation is crucial for a dog's overall
+            well-being and can help reduce destructive behaviors that result
+            from boredom or excess energy.
+          </li>
+          <li>
+            <strong>Socialization Opportunities:</strong> Dog walking allows
+            dogs to interact with other dogs, people, and environments,
+            promoting socialization skills. Exposure to different stimuli helps
+            dogs become more confident and well-adjusted in various situations.
+          </li>
+          <li>
+            <strong>Behavioral Training:</strong> Walking provides opportunities
+            for training and reinforcing good behavior, such as walking politely
+            on a leash, obeying commands, and practicing impulse control.
+          </li>
+        </ul>
 
-      <div className="grid md:grid-cols-[1fr,37%,1fr] gap-16 mt-10">
-        <div className="w-fit mx-auto self-end">
-          <Image
-            className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
-            src="/grid__1.png"
-            width={300}
-            height={600}
-            alt="grid image"
-          />
+        <Image
+          src="/f1.jpeg"
+          alt="dog1"
+          width={500}
+          height={500}
+          className="rounded-2xl"
+        />
+      </div>
 
-          <div className="space-y-4">
-            <Dash />
-            <h2 className="font-medium text-xl">Shrimp Salad</h2>
-            <p className="text-gray-700 text-[14p] xl:text-[16px]">
-              Etiam scelerisque justo et arcu scelerisque bibendum. Etiam tempus
-              lorem nec nunc sodales, ut interdum libero lobortis. Aenean ac
-              cursus leo, at auctor neque.
-            </p>
-          </div>
-        </div>
+      <div className="flex flex-col md:flex-row justify-around mt-10">
+        <Image
+          src="/f2.jpeg"
+          alt="dog2"
+          width={500}
+          height={500}
+          className="rounded-2xl"
+        />
 
-        <div className="w-fit mx-auto">
-          <Image
-            className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
-            src="/grid__2.png"
-            width={500}
-            height={900}
-            alt="grid image"
-          />
-
-          <div className="space-y-4">
-            <Dash />
-            <h2 className="font-medium text-xl">Baked Apples</h2>
-            <p className="text-gray-700 text-[14p] xl:text-[16px]">
-              In neque ipsum, vulputate sit amet tellus at, scelerisque
-              tincidunt diam. Mauris eros orci, fringilla non augue mollis,
-              venenatis varius eros. Aenean quis ultrices velit, nec placerat
-              ipsum
-            </p>
-          </div>
-        </div>
-
-        <div className="w-fit mx-auto self-end">
-          <Image
-            className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
-            src="/grid__3.png"
-            width={300}
-            height={600}
-            alt="grid image"
-          />
-
-          <div className="space-y-4">
-            <Dash />
-            <h2 className="font-medium text-xl">Cherries Chicken</h2>
-            <p className="text-gray-700 text-[14p] xl:text-[16px]">
-              Sed vel purus lobortis, iaculis risus sit amet, ultrices augue.
-              Maecenas congue dolor nunc. Suspendisse potenti. Nam et lobortis
-              tellus, eu ullamcorper elit. Nulla sem orci, porta id suscipit
-              sed, tempor eu odio.
-            </p>
-          </div>
+        <div className="max-w-[550px]">
+          <ul className="list-disc space-y-16 pt-14 text-gray-700">
+            <li>
+              <strong>Routine and Structure:</strong> Establishing a regular
+              walking routine provides dogs with structure and predictability,
+              which can reduce anxiety and promote a sense of security.
+            </li>
+            <li>
+              <strong>Environmental Enrichment:</strong> Exploring different
+              outdoor environments during walks exposes dogs to a variety of
+              sensory stimuli, enriching their lives and providing opportunities
+              for exploration and adventure.
+            </li>
+            <li>
+              <strong>Prevents Health Issues:</strong> Regular exercise through
+              walking helps prevent obesity, joint problems, and other health
+              issues in dogs. It also promotes better digestion and reduces the
+              risk of behavioral problems associated with pent-up energy.
+            </li>
+          </ul>
+          <p className="mt-14">
+            Overall, dog walking is a simple yet effective way to promote the
+            physical, mental, and emotional well-being of both dogs and their
+            owners, while also fostering a stronger sense of community among dog
+            lovers.
+          </p>
         </div>
       </div>
     </div>

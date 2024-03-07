@@ -49,7 +49,7 @@ const Menu = () => {
     <div className="container pt-40">
       <div className="space-y-4 w-fit mx-auto text-center">
         <h2 className="text-4xl font-bold md:text-6xl">
-          Our <span className="text-orange-500">Menu</span>
+          Our <span className="text-thirdary">Menu</span>
         </h2>
         <p className="text-gray-700">
           Vestibulum eget dui sollicitudin, consectetur nibh nec, fermentum
@@ -62,7 +62,7 @@ const Menu = () => {
       </div>
 
       <ul className="mt-10 hidden w-fit mx-auto sm:flex gap-6 md:gap-10 lg:gap-20">
-        <li className="bg-orange-500 text-white p-1 rounded">Appetizers</li>
+        <li className="bg-thirdary text-white p-1 rounded">Appetizers</li>
         <li>Breakfast</li>
         <li>Salads</li>
         <li>Meat & Fish</li>

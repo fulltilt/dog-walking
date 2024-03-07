@@ -89,7 +89,7 @@ const Services = () => {
     <div className="container pt-40" id="services">
       <div className="space-y-4 w-fit mx-auto text-center">
         <h2 className="text-4xl font-bold md:text-6xl">
-          Choose a <span className="text-orange-500">Service</span>
+          Choose a <span className="text-thirdary">Service</span>
         </h2>
         <p className="text-gray-700"></p>
         <div className="w-fit mx-auto">
@@ -97,7 +97,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="flex justify-around pt-8">
+      <div className="flex flex-col md:flex-row justify-around pt-8">
         {servicesData.map((item, index) => (
           <Dialog key={index}>
             <DialogTrigger>

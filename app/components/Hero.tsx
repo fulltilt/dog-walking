@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     // after:w-full after:h-[240px] after:bg-gradient-to-t after:from-white after:via-white/80 after:to-white/20 after:absolute after:bottom-0 after:z-20
     <div
-      className="relative min-h-screen bg-cover bg-center bg-gradient-to-r from-blue-400 to-transparent"
+      className="relative min-h-screen bg-cover bg-center"
       style={{ backgroundImage: `url("hero.jpeg")`, minWidth: "100vw" }}
     >
       {/* <Image
@@ -21,7 +21,7 @@ const Hero = () => {
       /> */}
       <Navbar />
       <div className="container h-[calc(100vh-120px)] grid items-center">
-        <div className="space-y-4 bg-[#ffffff98] w-fit p-4">
+        <div className="space-y-4 bg-[#ffffff98] w-fit p-4 rounded-2xl">
           <h2 className="text-6xl md:text-4xl font-bold">
             Welcome all dogs of any age or breed!
           </h2>

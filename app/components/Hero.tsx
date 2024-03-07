@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     // after:w-full after:h-[240px] after:bg-gradient-to-t after:from-white after:via-white/80 after:to-white/20 after:absolute after:bottom-0 after:z-20
     <div
-      className="relative min-h-screen bg-cover bg-center"
+      className="relative min-h-screen bg-cover bg-center bg-gradient-to-r from-blue-400 to-transparent"
       style={{ backgroundImage: `url("hero.jpeg")`, minWidth: "100vw" }}
     >
       {/* <Image

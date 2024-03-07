@@ -10,7 +10,7 @@ const Feature = () => {
       </h2>
       <p className="max-w-[550px] pt-10 text-gray-700">
         Dog walking offers numerous benefits, both for the dogs themselves and
-        their owners. Here's a list of some of the key benefits:
+        their owners. Here&apos;s a list of some of the key benefits:
       </p>
 
       <div className="flex flex-col md:flex-row justify-around">
@@ -24,9 +24,9 @@ const Feature = () => {
           <li>
             <strong>Mental Stimulation:</strong> Walking exposes dogs to new
             sights, sounds, and smells, which stimulates their minds and
-            prevents boredom. Mental stimulation is crucial for a dog's overall
-            well-being and can help reduce destructive behaviors that result
-            from boredom or excess energy.
+            prevents boredom. Mental stimulation is crucial for a dog&apos;s
+            overall well-being and can help reduce destructive behaviors that
+            result from boredom or excess energy.
           </li>
           <li>
             <strong>Socialization Opportunities:</strong> Dog walking allows

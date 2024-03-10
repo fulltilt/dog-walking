@@ -1,10 +1,11 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 type CardProps = {
   img: string;
   title: string;
   desc: string;
-  onClick: () => void;
+  // onClick: () => void;
 };
 
 const ServicesCard = ({ img, title, desc }: CardProps) => {
@@ -19,10 +20,13 @@ const ServicesCard = ({ img, title, desc }: CardProps) => {
           alt={title}
         />
         <div className="uppercase font-bold text-2xl">{title}</div>
-        <div className="flex gap-2 w-fit mx-auto mt-2">
-          <div className="bg-thirdary w-[7px] h-[7px] rounded-full" />
-          <div className="bg-thirdary w-[7px] h-[7px] rounded-full" />
-          <div className="bg-thirdary w-[7px] h-[7px] rounded-full" />
+        <div className="mt-4">
+          <a
+            href={void 0}
+            className="text-white bg-thirdary hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none"
+          >
+            Schedule
+          </a>
         </div>
       </div>
       <p className="text-gray-700 text-[14px] mt-3">{desc}</p>
